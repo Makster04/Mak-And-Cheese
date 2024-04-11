@@ -63,3 +63,4 @@ describe("Auth routes", () => {
     expect(response.text).toBe("Welcome to the secret area");
   });
 });
+
