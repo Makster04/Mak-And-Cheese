@@ -19,9 +19,10 @@ beforeAll(async () => {
 });
 
 afterAll(async () => {
-  db.drop();
-});
-
+    console.log("DB Object:", db);
+    await db.drop();
+  });
+  
 describe("Auth routes", () => {
   it("Should create a new user on POST /signup", async () => {
     const response = await request

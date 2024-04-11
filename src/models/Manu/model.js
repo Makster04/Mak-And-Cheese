@@ -7,4 +7,7 @@ const ManuModel = (sequelize, DataTypes) => sequelize.define('Manu', {
   nonfiction: { type: DataTypes.STRING, required: true }
 });
 
-module.exports = ManuModel;
+module.exports = {
+  db: sequelize,
+  Manu: ManuModel
+};

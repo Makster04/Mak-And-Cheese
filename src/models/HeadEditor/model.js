@@ -5,3 +5,8 @@ class HeadEditorDataCollection extends DataCollection {
     }
     
 }
+
+module.exports = {
+    db: sequelize,
+    Manu: ManuModel
+  };
