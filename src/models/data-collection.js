@@ -38,4 +38,5 @@ class DataCollection {
 module.exports = {
     EditorDataCollection,
     HeadEditorDataCollection,
+    DataCollection
   };
